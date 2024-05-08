@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: rgb(238, 255, 0);
+    font-size: x-large;
+}
+.color{
+    color: aqua;
+}
