@@ -1,0 +1,28 @@
+#cor{
+    color: aqua;
+}
+#cor2{
+    color: antiquewhite;
+}
+#cor3{
+    color: aquamarine;
+}
+body{
+    animation: piscapisca 10s infinite;
+    background-color: rgb(205, 218, 255);
+}
+.classe{
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+@keyframes piscapisca{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: azure;
+    }
+    100%{
+        background-color: brown;
+    }
+}
