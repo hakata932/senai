@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+strong{
+    color: crimson;
+}
+h3{
+    text-align: center;
+    border: 0px solid;
+    width: 10%;
+    border-radius: 5%;
+    padding: 5px;
+    background-color: rgb(218, 218, 218);
+    color: blue;
+    text-transform: uppercase;
+}
+img{
+    border: 15px solid rgb(218, 218, 218);
+    border-radius: 5%;
+}
+footer{
+    border: 1px solid rgb(218, 218, 218);
+    background-color: rgb(218, 218, 218);
+    width: 50%;
+    text-align: center;
+}
