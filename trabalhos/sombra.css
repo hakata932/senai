@@ -1,0 +1,12 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 7px 4px 8px;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: 3px 3px 3px 2px black;
+}
