@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*resetarão o margin e padding padrão do navegador*/
+}
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex; /*vai deixar um ao lado do outro*/
+    align-items: center;
+    justify-content: space-around;
+    background-color: crimson;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h3{
+    color: white;
+}
+span{
+    color: aqua;
+    text-shadow: aqua 2px 2px 4px;
+}
+button{
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    gap: 20px; /*espaçamento entre os itens*/
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
