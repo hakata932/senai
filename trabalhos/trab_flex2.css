@@ -1,0 +1,7 @@
+#flex{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
