@@ -1,0 +1,19 @@
+#flex1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid red;
+}
+#borda1{
+    width: 200px;
+    border: 1px solid green;
+}
+#borda2{
+    width: 200px;
+    border: 1px solid yellow;
+}
+#borda3{
+    width: 200px;
+    border: 1px solid lightcoral;
+}
