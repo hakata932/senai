@@ -19,6 +19,23 @@
 //    alert(`O nome ${qual_estado} não foi encontrado em nenhuma posição.`)
 //}
 
-var carros = ['BMW', 'Ferrari', 'Gol', 'Civic']
-carros[2] = 'corolla'
-alert(carros)
+//var carros = ['BMW', 'Ferrari', 'Gol', 'Civic']
+//carros[2] = 'corolla'
+//alert(carros)
+
+//var estados = ['Rondônia', 'Acre', 'Rio de Janeiro', 'São Paulo']
+//document.write('o tamanho do array é ' + estados.length)
+
+//var estados = ['Rondônia', 'Acre', 'Rio de Janeiro', 'São Paulo', 'Tocantins', 'Piauí'];
+//
+//estados.forEach(function(estados, indices){
+//    document.write(`Indice: ${indices} — Estado: ${estados} <br>`)
+//})
+
+var estados = ['Rondônia', 'Acre', 'Rio de Janeiro', 'São Paulo', 'Tocantins', 'Piauí'];
+
+estados.forEach(function(estados, indices){
+    if(indices == 2){
+        document.write(`Indice: ${indices} — Estado: ${estados} <br>`)
+    }
+})
