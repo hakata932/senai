@@ -34,13 +34,22 @@
 //    document.write(frutas + ', ')
 //} frutas.push()
 
-var numeros = [10,2,100]
-var valorDoMaior = 0
+//var numeros = [10,2,100]
+//var valorDoMaior = 0
+//var lista = []
+//numeros.forEach(function(numero){
+//    if(numero > valorDoMaior){
+//    valorDoMaior = numero
+//    }
+//})
+//lista.push(valorDoMaior)
+//document.write(valorDoMaior)
+
+var numeros = [10, 14, 15, 17, 20, 13]
 var lista = []
-numeros.forEach(function(numero){
-    if(numero > valorDoMaior){
-    valorDoMaior = numero
+numeros.forEach(function(number){
+    if(number < 15){
+        lista.push(number)
     }
 })
-lista.push(valorDoMaior)
-document.write(valorDoMaior)
+document.write(lista)
