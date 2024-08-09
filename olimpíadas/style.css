@@ -1,0 +1,30 @@
+*{
+    background-color: aqua;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: solid 1px black;
+    background-color: rgb(58, 209, 255);
+}
+a{
+    color: blue;
+    cursor: pointer;
+}
+#centro{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+}
