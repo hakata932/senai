@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+}
+input{
+    padding: 14px 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 10px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: darkseagreen;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(91, 252, 198);
+    transition: 0.2s;
+}
