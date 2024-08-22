@@ -30,3 +30,9 @@ ADD descricao varchar(255);
 /*inserindo valores dentro de uma tabela*/
 
 INSERT INTO alunos (nome_pessoal, email) VALUES ("Joãozinho do Mato Souza", "joão@gmail.com");
+
+/*Atualizando valores ou inserindo valores não preenchidos previamente em uma tabela já existente*/
+
+UPDATE alunos
+SET email = 'novoemail@gmail.com', nome_pessoal = 'novo nome'
+WHERE id = 1;
