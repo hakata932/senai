@@ -78,3 +78,6 @@ CREATE TABLE usuarios (
     endereco_id int,
     FOREIGN KEY(endereco_id) REFERENCES enderecos(endereco_id)
 );
+
+INSERT INTO enderecos (numero_rua, nome_rua, cidade) VALUES (150, 'Bairro da Paz', 'Rio branco, AC');
+INSERT INTO usuarios (nome, enderecos) VALUES ('joao', 1);
