@@ -31,22 +31,35 @@ header{
     header{
         background-color: antiquewhite;
     }
+    .menu.adicionarClasseClicar{
+        height: 400px;
+        transition: 1s;
+    }
     .menu{
-        
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100%;
+        background-color: antiquewhite;
+        transition: 1.5s ease;
+        font-size: large;
     }
     .menu-celular .linha{
-        width: 26px;
+        width: 38px;
         height: 3px;
         background-color: white;
-        margin: 6px;
+        margin: 8px 0px;
+        transition: all 0.3s ease;
     }
     .menu ul{
         display: flex;
         flex-direction: column;
-        height: 400px;
+        text-align: center;
+        gap: 50px;
+        margin: 70px auto;
     }
     .menu-celular{
         display: block;
-        cursor: pointer;
     }
 }
