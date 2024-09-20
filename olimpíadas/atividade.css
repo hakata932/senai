@@ -34,6 +34,8 @@ header{
     .menu.adicionarClasseClicar{
         height: 400px;
         transition: 1s;
+        opacity: 1;
+        pointer-events: all;
     }
     .menu{
         height: 0px;
@@ -44,6 +46,8 @@ header{
         background-color: antiquewhite;
         transition: 1.5s ease;
         font-size: large;
+        opacity: 0;
+        pointer-events: none;
     }
     .menu-celular .linha{
         width: 38px;
