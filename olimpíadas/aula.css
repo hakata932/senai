@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.borda{
+    background-color: #1f5eaf;
+    color: azure;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 2px;
+    padding-left: 7px;
+}
+#calculo{
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: #1f5eaf;
+
+}
+input{
+    border-radius: 5px;
+    margin: 2px;
+    border-color: #1f5eaf;
+}
+#final{
+    display: flex;
+    justify-content: center;
+}
+#botao{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    background-color: #1f5eaf;
+    color: white;
+    border: none;
+}
+#borda2{
+    border: 2px;
+    background-color: #1f5eaf;
+    color: azure;
+    font-size: larger;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 15px;
+}
