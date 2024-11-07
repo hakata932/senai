@@ -4,4 +4,4 @@ h1.appendChild(textoNovo)
 
 let corpo = document.querySelector('body')
 corpo.appendChild(h1)
-corpo.removeChild(h1)
+//corpo.removeChild(h1) para remover o comando
